@@ -15,12 +15,14 @@ body{
 }
 
 
+
 header{
     padding: 10px 85px 13px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .left{
     display: flex;
     align-items: center;
@@ -31,6 +33,8 @@ header{
 .logo img{    
     width: 108px;
 }
+
+
 .nav-bar{
     display: flex;
 }
@@ -55,6 +59,9 @@ header{
 .nav-bar li a:hover::after{
     display: block;
 }
+
+
+
 .right{
     display: flex;
     align-items: center;
@@ -88,12 +95,10 @@ header{
 .sec-nav li a:hover span::after{
     display: block;
 }
-.sec-nav li a i{
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    margin: 5px 0 0 3px;
+.sec-nav li a i {
     font-size: 20px;
-    color: #666666;
+    color: gray;
+    margin-left: 5px;
 }
 .sec-nav li a img{
     width: 34px;
@@ -115,41 +120,48 @@ header{
 .general{
     width: 100%;
     padding: 115px 125px;
-    background: url(main.jpeg) center no-repeat;
+    background: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-AI-11Ed-Sapphire-MC001-3000x1682:VP5-1920x600) center no-repeat;
     background-size: cover;
     position: relative;
 }
 .gen_title_back{
     width: 470px;
+    background: white;
+    padding: 20px; 
+    border-radius: 2px; 
+    display: inline-block; 
+    max-width: 600px;
+    margin: auto;
 }
 .gen_title{
     font-weight: 500;
     font-size: 37px;
-    color: #fff;
+    color: #000000;
     line-height: 1.2;
 }
 .mid_title{
-    color: #fff;
-    margin-top: 20px;
+    color: #000000;
+    margin-top: 26px;
     line-height: 1.5;
 }
-.gen_link{
+
+.gen_link {
     background: #0067b8;
-    color: #fff;
-    padding: 0.625rem 0.75rem;
-    display: flex;
+    color: white;
+    display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    border-radius: 3px;
-    font-weight: 600;
-    margin-top: 25px;
-    position: relative;
-    z-index: 2;
+    padding: 6px 10px; 
+    font-size: 16px; 
+    font-weight: bold;
+    border-radius: 2px; 
+    margin-top: 20px;
 }
 .gen_link:hover{
-    background: #0063af;
+    background: #63a0ce;
 }
+
+
 
 footer {
     display: grid;
@@ -220,4 +232,81 @@ footer {
 
 .info_buttons a {
     color: #ffffff;
+}
+.slide {
+    display: flex; 
+    justify-content: center;  
+    align-items: center;
+    height: 30px; 
+    width: 100%;  
+    margin-top: 30px;
+}
+
+.slide img {
+    max-width: 50%; 
+    max-height: 50px; 
+    object-fit: contain; 
+}
+
+.blue-text {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.blue-text .textt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-text .textt li a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.blue-text .textt li a i {
+    color: white;
+    font-size: 16px;
+}
+
+
+.shop-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.shop-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.shop-item img {
+    width: 50px;
+    height: auto;
+}
+
+.shop-item a {
+    color: #0661a6;
+    font-size: 16px;
+    text-decoration: none;
+    text-decoration: underline;
 }
