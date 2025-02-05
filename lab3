@@ -1,0 +1,5 @@
+<script>start("/Users/anaraarman/Desktop/Web-Dev/lab3/");</script>
+<script>onHasParentDirectory();</script>
+<script>addRow("javascriptInfo","javascriptInfo",1,192,"192 B",1738750478,"2/5/25, 3:14:38 PM");</script>
+<script>addRow("Todo","Todo",1,160,"160 B",1738750691,"2/5/25, 3:18:11 PM");</script>
+<script>addRow(".DS_Store",".DS_Store",0,6148,"6.0 kB",1738750745,"2/5/25, 3:19:05 PM");</script>
